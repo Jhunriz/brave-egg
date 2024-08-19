@@ -1,0 +1,42 @@
+body {
+    background-image: url('./images/background-image.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Adjust as needed */
+    height: 100vh; /* Adjust as needed */
+}
+
+
+section {
+    padding: 100px;
+}
+
+.decor-container {
+    margin-top: 20px;
+}
+
+
+.decor1 {
+    position: relative;
+    z-index: 2;
+    object-fit: cover;
+}
+
+
+
+.decor2 {
+    position: absolute;
+    object-fit: cover;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    z-index: 1;
+}
+
+.bg-primary {
+    position: relative;
+    overflow: hidden;
+}
+
+
